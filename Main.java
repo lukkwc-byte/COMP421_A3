@@ -4,6 +4,7 @@ import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Scanner;
+import interface;
 // javac -cp ~/comp421/postgresql-9.4.1208.jre6.jar simpleJDBC.java
 
 
@@ -44,7 +45,6 @@ public class simpleJDBC {
 		Scanner in = new Scanner(System.in);
 
 		while (true){
-		// getcmd(userInput);
 			userInput = in.nextLine().split(" ");
 			System.out.println(userInput[0]);
 
